@@ -6,6 +6,6 @@ import androidx.room.PrimaryKey
 
 @Entity()
 class ToDo (@ColumnInfo(name = "text")val text:String) {
-    @PrimaryKey(autoGenerate = true)val id=0
+    @PrimaryKey(autoGenerate = true)val id=1
 
 }
