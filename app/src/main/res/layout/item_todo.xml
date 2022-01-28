@@ -5,7 +5,7 @@
     android:layout_height="56dp"
     >
 
-    <!-- quick and dirty divider -->
+
     <View
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,8 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="left|center_vertical"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
 
 
@@ -41,11 +40,11 @@
 
         <CheckBox
             android:id="@+id/CheckBox"
-            android:layout_width="0dp"
+            android:layout_width="10dp"
             android:layout_height="match_parent"
             android:layout_weight="0.1"
             android:checked="true"
-            tools:ignore="TouchTargetSizeCheck" />
+             />
 
 
     </LinearLayout>
