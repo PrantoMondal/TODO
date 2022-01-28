@@ -12,5 +12,5 @@ interface ToDoDao {
     suspend fun delete(todo: ToDo)
     //ordered by id asc
     @Query("Select * from ToDo order by id ASC")
-    fun getAll(): LiveData<List<ToDo>>
+    fun getAllTask(): LiveData<List<ToDo>>
 }
